@@ -77,3 +77,55 @@
     .copy:hover{
       color: orange;
     }
+    .order {
+        background-attachment: fixed;
+        background:url('5-90-700x700.jpg') center/cover fixed no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding-top: 4%;
+        padding-bottom: 4%;
+      }  
+      
+      .order-overlay {
+        background-color: transparent;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 20px;
+        padding-left: 6%;
+       
+      }
+      .order h2 {
+        text-align: center;
+      } 
+      
+      .choice h2 {
+        color:#BA5A31;
+        text-align: left;
+      } 
+      
+      #info {
+        padding-top: 5%;
+        font-size: 22px;
+        padding-right: 8%;
+        padding-left: 5%;
+        color: #ffa500;
+      } 
+      .order-placed{
+         padding: 1rem 0; 
+        text-transform: uppercase;
+      }
+      
+      button {
+        padding: 0.8rem;
+        background-color:#C9EDDC;
+      }
+      .icons{
+        font-size: 2rem;
+        color: #090C9B;
+        padding-top:10px
+      }
+    
+      
+      
