@@ -8,7 +8,7 @@
    }
    .main-navbar{
     padding:0 2rem;
-    background-color: var(--primaryColor);
+    background-color:cornsilk;
    }
    #one{
      text-transform: uppercase;
@@ -19,15 +19,10 @@
    }
    .main-navbar a{
     text-transform: capitalize;
-    color: var(--secondarycolor);
-    transition: var(--transition);
+    color: black;
     display:block;
-    padding: 1rem 0;
-   
-   }
-   .main-navbar a:hover{
-    color: var(--mainBlack);
-   }
+    padding: 1rem 0;}
+
    .main-navbar li{
     list-style-type:none;
    }
@@ -59,13 +54,6 @@
    }
    .main-header{
     background: black;
-   }
-   .shida{
-    animation-name: move;
-    animation-duration:  10s;
-    animation-iteration-count:2;
-    
-    text-transform: uppercase;
    }
    .main-about{
     
