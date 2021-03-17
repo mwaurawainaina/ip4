@@ -53,6 +53,111 @@
  </div>
 </section>
 
+<!-- order section -->
+<div class="container-fluid order" id="make-order">
+    <div class="order-overlay">
+      <div class="controls-top text-center" id="Order-now"> 
+        <a name="order"></a>
+        <h2 class="order-placed">order here</h2>
+      </div>    
+      <div class="row">
+          <div class="col-sm-5">
+            <form action="">
+                <label for="select">Select Preffered flavour</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">                
+                  <option value="Chicken Tikka">Pepperoni</option>
+                  <option value="PeriPeri Pizza">cheese pizza</option>
+                  <option value="Raspberry Dessert Pizza">Neapolitan</option>
+                  <option value="Chicken Alfredo Pizza">California </option>
+                  <option value="Sunchoke Pizza">Peppy paneer</option>
+                  <option value="Buffalo Chicken Sticks">BBQ </option>
+                </select>
+              <label for="select">Preffered Size</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option selected value="0">preferred size here</option>
+                <option value="large">Large -- sh. 1500</option>
+                <option value="medium">Medium -- sh. 900</option>
+                <option value="small">Small -- sh. 500</option>
+                
+              </select>
+              <label for="crust">Choose your favorite Crust!</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                    <option selected value="0"> preferred crust.</option>
+                  <option value="Crispy">Neapolitan -- sh. 400</option>
+                  <option value="Stuffed"> Deep-Dish.-- sh. 450</option>
+                  <option value="Gluten-free">Flatbread -- sh. 300</option>
+                </select><br><br><br><br>
+              <label for="Toppings">Each topping price is 200</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                  <label class="custom-control-label" for="Sausage">Bacon</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Black olives</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                  <label class="custom-control-label" for="Mushrooms">Onions</label>
+                </div>
+                <br><br>
+              <button type="submit" class="btn btn-danger proceed">submit for order</button>
+              
+            </form>
+          </div>
+          <div class="col-sm-7">
+            <div id="info">
+              <p>Delivery will be soon.</p>  
+            </div>
+            <div class="choice">
+              <h2>Total of your picks:</h2>
+              <div id="your-orders">
+                <table class="table table-sm  pizzatable">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ordersmade">
+                    <tr>
+                      <td id="pizzaname"></td>
+                      <td id="pizzasize"></td>
+                      <td id="pizzacrust"></td>
+                      <td id="pizzatopping"></td>
+                      <td id="totals"></td>
+                    </tr>                  
+                  </tbody>
+                </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p> 
+                <p id="deliveryprice">Cost of delivery:200</p>
+                <p id="finallmessage"></p>
+              </div>
+              <button class="btn btn-danger addPizza">Delivery cost 200</button>
+              <button class="btn btn-danger" id="checkout">Checkout</button>
+              <button class="btn btn-danger deliver">Home delivery?</button>
+            </div>
+            <div class="pick-up">
+                <form action="">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for pick-up">
+                    <button class="btn btn-danger" id="final-order"> Order Now</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+      </div>
+    </div>
+   </div>
+  
+   <!-- end -->
+
     <script src="main.js"></script> 
     <script src="<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>"></script> 
 </body>
