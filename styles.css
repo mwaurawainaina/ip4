@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+   }
+   a{
+    text-decoration: none;
+   }
+   .main-navbar{
+    padding:0 2rem;
+    background-color: var(--primaryColor);
+   }
+   #one{
+     text-transform: uppercase;
+     color: #824C71;
+   }
+   #about{
+     text-transform: uppercase;
+   }
+   .main-navbar a{
+    text-transform: capitalize;
+    color: var(--secondarycolor);
+    transition: var(--transition);
+    display:block;
+    padding: 1rem 0;
+   
+   }
+   .main-navbar a:hover{
+    color: var(--mainBlack);
+   }
+   .main-navbar li{
+    list-style-type:none;
+   }
+   @media screen and (min-width:546px){
+   .main-navbar ul{
+    max-width: 1170px;
+    margin: 1rem auto;
+     display: grid;
+     grid-template-columns: repeat(4 , 1fr);
+    
+    }
+    .main-navbar a{
+     text-align: center;
+    }
+   }
+.about{background-image: 
+    url(depositphotos_41466555-stock-photo-image-of-slice-of-pizza.jpg);
+    min-height: 80vh;background-size: cover
+;
+   }
+   .about{
+   text-align:center;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   color: var(--secondarycolor);
+   animation: move 4s ease-in-out 2;
+   
+   }
+   .main-header{
+    background: black;
+   }
+   .shida{
+    animation-name: move;
+    animation-duration:  10s;
+    animation-iteration-count:2;
+    
+    text-transform: uppercase;
+   }
+   .main-about{
+    
+    background-color: #D7FDF0;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+   }
