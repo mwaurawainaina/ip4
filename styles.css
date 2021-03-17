@@ -64,3 +64,16 @@
     align-items: center;
     padding: 5rem;
    }
+   .main-footer{
+    color: var(--mainWhite);
+    text-align: center;
+    padding: 2rem;
+    height: 10rem;
+    text-transform: uppercase;
+    background:#D8FFDD;
+    color:#0A0F0D;
+    padding-top: 5rem;
+    } 
+    .copy:hover{
+      color: orange;
+    }
